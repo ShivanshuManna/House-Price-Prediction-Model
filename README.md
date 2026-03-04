@@ -50,7 +50,6 @@ The application allows users to enter house features (such as area, number of be
 ---
 
 
----
 
 ## ▶️ How to Run the Project
 
