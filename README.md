@@ -1,131 +1,103 @@
-🏠 House Price Prediction Web App
-Machine Learning Model using Linear Regression & Flask
-📌 Project Overview
+# 🏠 House Price Prediction Web App
 
-This project is a House Price Prediction Web Application built using Machine Learning (Linear Regression) and deployed with Flask.
+## 📌 Project Overview
+
+This project is a **House Price Prediction Web Application** built using **Machine Learning (Linear Regression)** and deployed with **Flask**.
 
 The application allows users to enter house features (such as area, number of bedrooms, etc.) and get an instant predicted house price through a simple web interface.
 
-🧠 Machine Learning Model
+---
 
-Algorithm Used: Linear Regression
+## 🧠 Machine Learning Model
 
-Built using Scikit-learn
+### 📊 Algorithm Used
+- **Linear Regression**
+- Built using **Scikit-learn**
+- Trained on historical housing dataset
+- Model saved using **Joblib** for deployment
 
-Trained on historical housing dataset
+### 📈 Evaluation Metrics
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- R² Score
 
-Model saved using Joblib for deployment
+---
 
-📊 Evaluation Metrics
+## 🛠️ Technologies & Libraries Used
 
-Mean Absolute Error (MAE)
+- Python  
+- Flask  
+- NumPy  
+- Pandas  
+- Matplotlib  
+- Seaborn  
+- Scikit-learn  
+- Joblib  
 
-Mean Squared Error (MSE)
+---
 
-R² Score
+## 📊 Project Workflow
 
-🛠️ Technologies & Libraries Used
+1. Data Collection  
+2. Data Cleaning & Preprocessing  
+3. Exploratory Data Analysis (EDA)  
+4. Feature Selection  
+5. Model Training using Linear Regression  
+6. Model Evaluation  
+7. Model Saving using Joblib  
+8. Deployment using Flask  
 
-Python
+---
 
-Flask
 
-NumPy
+---
 
-Pandas
+## ▶️ How to Run the Project
 
-Matplotlib
+### 1️⃣ Clone the Repository
 
-Seaborn
 
-Scikit-learn
 
-Joblib
+### 2️⃣ Install Dependencies
 
-📊 Project Workflow
+Or install manually:
 
-Data Collection
+### 3️⃣ Run the Application
 
-Data Cleaning & Preprocessing
+### 4️⃣ Open in Browser
 
-Exploratory Data Analysis (EDA)
+---
 
-Feature Selection
+## 🌐 Web Application Features
 
-Model Training using Linear Regression
+- User-friendly input form  
+- Real-time house price prediction  
+- Backend ML integration with Flask  
+- Lightweight and easy to deploy  
 
-Model Evaluation
+---
 
-Model Saving using Joblib
+## 📈 Future Improvements
 
-Deployment using Flask
+- Compare with other regression models  
+- Improve UI/UX design  
+- Deploy on cloud platforms  
+- Add input validation and error handling  
 
-📂 Project Structure
-House-Price-Prediction/
-│
-├── app.py
-├── model.pkl
-├── templates/
-│   └── index.html
-├── static/
-├── dataset.csv
-├── requirements.txt
-└── README.md
-▶️ How to Run the Project
-1. Clone the Repository
+---
 
-git clone https://github.com/your-username/house-price-prediction.git
+## 🎯 Learning Outcomes
 
-cd house-price-prediction
+- Implementation of Linear Regression  
+- Model evaluation techniques  
+- Model saving and loading using Joblib  
+- Flask integration with ML models  
+- End-to-end ML project development  
 
-2. Install Dependencies
+---
 
-pip install -r requirements.txt
-
-Or manually install:
-
-pip install flask numpy pandas matplotlib seaborn scikit-learn joblib
-
-3. Run the Application
-
-python app.py
-
-4. Open in Browser
-
-http://127.0.0.1:5000/
-
-🌐 Web Application Features
-
-User-friendly input form
-
-Real-time house price prediction
-
-Backend ML integration with Flask
-
-Lightweight and easy to deploy
-
-📈 Future Improvements
-
-Compare with other regression models
-
-Improve UI/UX design
-
-Deploy on cloud platforms (AWS / Render / Heroku)
-
-Add input validation and error handling
-
-🎯 Learning Outcomes
-
-Implementation of Linear Regression
-
-Model evaluation techniques
-
-Model saving and loading using Joblib
-
-Flask integration with ML models
-
-End-to-end ML project development
-
-📜 License
+## 📜 License
 
 This project is open-source and available under the MIT License.
+
+## 📂 Project Structure
